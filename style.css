@@ -33,18 +33,20 @@ body{
     padding: 0px;
     font-family: var(--font-padrao);
     background-color: #4ac7105f;
+
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    color: white;
+    background-color: var(--cor4);
+    min-height: 150px;
     text-align: center;
     padding-top: 40px;
-    font-family: var(--fonte-destaque);
+     
     
 }
 
 header > h1{
+    color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
@@ -53,9 +55,9 @@ header > h1{
 }
 header > p{
     font-family: var(--fonte-destaque);
-    font-size: 1.5em;
+    font-size: 1.2em;
     color : white;
-    max-width: 600px;
+    max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -81,11 +83,16 @@ nav > a{
     transition-duration: 0.3s;
 }
 
+
 main{
+    
+    min-height: 300px;
+    max-width: 600px;
     background-color: white;
-    width: 800px;
+   
+    margin-bottom: 30px;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0px 0px 10px black;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -103,17 +110,19 @@ main img.pequena{
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-destaque);
-    font-weight: normal;
-    font-size: 1.8em;
+    
 }
 main h2{
     color: var(--cor4);
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
 }
 main p{
-    margin: 20px 0px;
+    position: relative;
+    margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
